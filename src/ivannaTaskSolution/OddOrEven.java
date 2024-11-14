@@ -1,6 +1,8 @@
 package ivannaTaskSolution;
 
 public class OddOrEven {
+
+
     /*
     Write  a method which can identifies given number is even or odd
         EX:
@@ -8,6 +10,5 @@ public class OddOrEven {
         identify(6) ->  "Even"
 
      */
-
 
 }
