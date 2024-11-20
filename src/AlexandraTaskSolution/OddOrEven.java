@@ -19,33 +19,3 @@ public class OddOrEven {
        }
     }
 }
-
-
-//} else {
-//System.out.println(num2 + " is even");
-//System.out.println(num2 + " is odd");
-//} else if (num2 % 2 == 1) {
-           /* if (num2 % 2 == 1) {
-                System.out.println(num2 + " is odd");
-            } else {
-                System.out.println(num2 + " is even");
-
-            }
-        }
-    }
-
-
-
-
-
-
-
-    /*
-    Write  a method which can identifies given number is even or odd
-        EX:
-        identify(5) ->  "Odd"
-        identify(6) ->  "Even"
-
-     */
-
-
