@@ -9,5 +9,20 @@ public class OddOrEven {
 
      */
 
+    public static String oddOrEven(int num){
+        if (num % 2 == 0){
+            return "even";
+        } else {
+            return "odd";
+        }
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("number 4 is: " + oddOrEven( 4));
+        System.out.println("number 5 is: " + oddOrEven( 5));
+
+    }
+
 
 }
