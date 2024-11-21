@@ -11,4 +11,23 @@ public class OddOrEven {
 
      */
 
+
+    public static String identifyGivenNumber(int num) {
+        if (num % 2 == 0) {
+            return "Even";
+        } else {
+            return "Odd";
+            
+        }
+    }
+
+    public static void main(String[] args) {
+        String a = identifyGivenNumber(8);
+        System.out.println(a);
+
+        String b = identifyGivenNumber(11);
+        System.out.println(b);
+    }
+
+
 }
