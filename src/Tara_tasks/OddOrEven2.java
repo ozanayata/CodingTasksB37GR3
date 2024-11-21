@@ -2,20 +2,19 @@ package Tara_tasks;
 
 public class OddOrEven2 {
 //Solution 2
-    public static String identify(int number){
-        if (number % 2 ==0){
-            return "True";
-
-        }else {
-            return "False";
-        }
-    }
+     public static String identifyIfOdd(int number){
+         if (number % 2 == 0){
+             return "False"; // Even Number
+         }else {
+             return "True"; // Odd number
+         }
+     }
 
     public static void main(String[] args) {
-        System.out.println(identify(13));
-        System.out.println(identify(333));
-        System.out.println(identify(24));
-        System.out.println(identify(62));
-        System.out.println(identify(44));
+        System.out.println(identifyIfOdd(13));
+        System.out.println(identifyIfOdd(333));
+        System.out.println(identifyIfOdd(24));
+        System.out.println(identifyIfOdd(62));
+        System.out.println(identifyIfOdd(44));
     }
 }
