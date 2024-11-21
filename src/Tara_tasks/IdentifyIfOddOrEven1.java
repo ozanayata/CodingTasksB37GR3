@@ -1,7 +1,7 @@
 package Tara_tasks;
 
 
-public class OddOrEven {
+public class IdentifyIfOddOrEven1 {
 
     //First Solution
     public static String identify(int number){
