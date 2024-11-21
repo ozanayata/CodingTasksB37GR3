@@ -1,4 +1,4 @@
-package ozanTaskSolution;
+package Igors_Tasks;
 
 public class OddOrEven {
     /*
