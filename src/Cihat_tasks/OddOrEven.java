@@ -2,17 +2,16 @@ package Cihat_tasks;
 
 public class OddOrEven {
 
-    public static void main(String[] args) {
-
+    public static String identify(int number) {
         int num = 5;
         if (num % 2 == 0) {
-                System.out.println("Even");
-            } else {
-                System.out.println("Odd");
-            }
+            return "Even";
+        } else {
+            return "Odd";
         }
-
     }
+}
+
 
 
     /*
