@@ -1,6 +1,6 @@
-package troyWeeklyTasks;
+package AlvaroTask;
 
-public class Number_FINRA_DivisibleBy3_5 {
+public class FINRA_Task {
 
     /*
     Write a function which prints out the numbers from 1 to 30 but
@@ -15,5 +15,20 @@ public class Number_FINRA_DivisibleBy3_5 {
     //  Tara will share the solution
     // next week we will meet on Wednesday at 3:30 pm EST
 
+    public static void main(String[] args) {
 
+        for (int i = 1; i <= 30; i++) {
+            System.out.print(" ");
+            if (i % 15 == 0) {
+                System.out.print("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.print("FIN");
+            } else if (i % 5 == 0) {
+                System.out.print("RA");
+            }else {
+                System.out.print(i);
+            }
+        }
+
+    }
 }
