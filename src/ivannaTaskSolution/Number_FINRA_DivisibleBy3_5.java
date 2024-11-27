@@ -1,4 +1,4 @@
-package troyWeeklyTasks;
+package ivannaTaskSolution;
 
 public class Number_FINRA_DivisibleBy3_5 {
 
@@ -14,6 +14,29 @@ public class Number_FINRA_DivisibleBy3_5 {
 
     //  Tara will share the solution
     // next week we will meet on Wednesday at 3:30 pm EST
+
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 30; i++) {
+            finra(i);
+        }
+    }
+
+    public static void finra (int num){
+
+        if (num % 3 == 0 && num % 5 == 0){
+            System.out.print("FINRA ");;
+        } else if (num % 5 == 0) {
+            System.out.print("RA ");
+        }else if (num % 3 == 0){
+            System.out.print("FIN ");
+        }else {
+            System.out.print(num +" ");
+        }
+    }
+
+
+
 
 
 }
