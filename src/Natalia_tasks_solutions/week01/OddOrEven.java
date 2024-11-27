@@ -1,6 +1,4 @@
-package Natalia_week01_tasks_solutions;
-
-import java.util.Scanner;
+package Natalia_tasks_solutions.week01;
 
 public class OddOrEven {
     /*
