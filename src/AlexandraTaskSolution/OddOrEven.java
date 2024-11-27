@@ -1,19 +1,28 @@
+package AlexandraTaskSolution;
+
 import java.util.Scanner;
 
-public static void identify5() {
+public class OddOrEven {
 
-    Scanner reader = new Scanner(System.in);
-    System.out.println("Enter the number to see if it's odd or even: ");
-    int number = reader.nextInt();
+    public static void identify() {
+
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter the number to see if it's odd or even: ");
+        int number = reader.nextInt();
 
 
-    if (num % 2 == 0) {
-        System.out.println(num + " is even");
-    } else {
-        System.out.println(num + " is odd");
+        if (number % 2 == 0) {
+            System.out.println(number + " is even");
+        } else {
+            System.out.println(number + " is odd");
+        }
+
+
+    }
+    public static void main(String[] args) {
+
+        identify();
 
     }
 
 }
-
-
