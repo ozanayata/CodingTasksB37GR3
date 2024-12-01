@@ -1,4 +1,4 @@
-package Tara_tasks;
+package Tara_tasks.Loom_tasks;
 
 public class ReverseString_LoomTask {
     public static void main(String[] args) {

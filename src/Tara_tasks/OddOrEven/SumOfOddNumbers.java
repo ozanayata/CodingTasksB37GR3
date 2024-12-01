@@ -1,4 +1,4 @@
-package Tara_tasks;
+package Tara_tasks.OddOrEven;
 
 public class SumOfOddNumbers {
     public static void main(String[] args) {
