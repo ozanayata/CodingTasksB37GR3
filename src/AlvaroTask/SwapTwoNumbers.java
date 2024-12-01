@@ -16,6 +16,7 @@ public class SwapTwoNumbers {
 
         int a = 5;
         int b = 7;
+        
 
         a = b + a; //a = 7 + 5
         b = a - b; //b = 12 - 7 -> 5
