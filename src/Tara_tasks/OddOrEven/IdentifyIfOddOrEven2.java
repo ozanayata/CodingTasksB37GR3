@@ -1,4 +1,4 @@
-package Tara_tasks;
+package Tara_tasks.OddOrEven;
 
 public class IdentifyIfOddOrEven2 {
 //Solution 2
