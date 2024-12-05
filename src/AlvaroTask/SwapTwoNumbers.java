@@ -22,16 +22,16 @@ public class SwapTwoNumbers {
         b = a - b; //b = 12 - 7 -> 5
         a = a - b; //a = 12 - 5 -> 7
 
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
 
         //Second Approach
 //        b = a + b; // b =  5 + 7 -> 12
 //        a = b - a; // a = 12 - 5 -> 7
 //        b = b - a; // b = 12 - 7 -> 5
-//        System.out.println(a);
-//        System.out.println(b);
+//        System.out.println("a = " + a);
+//        System.out.println("b = " + b);
 
     }
 
