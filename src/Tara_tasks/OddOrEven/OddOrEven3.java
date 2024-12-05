@@ -1,4 +1,4 @@
-package Tara_tasks;
+package Tara_tasks.OddOrEven;
 
 import java.util.function.Predicate;//make sure this is imported or it will not work
 
