@@ -1,6 +1,7 @@
 package AruzhanTaskSolution;
 
-public class ReverseNegativeTask {
+public class
+ReverseNegativeTask {
 
     public static void main(String[] args) {
 

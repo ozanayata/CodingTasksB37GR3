@@ -23,7 +23,7 @@ LOOM ASSIGNMENT.Verbal explanation:
      ...where  int i = str.length() represent total numbers of characters and I subtract 1 because
      it will give me the last index of the string
      ...I also need to specify condition , so as long as i>= 0   I can let the loop continue to be repeated.
-     Now I have 1-- left to print out - in order  to reach the first index number starting from last
+     Now I have i-- left to print out - in order  to reach the first index number starting from last
      to the first. I have to make sure that the index number is decreasing by one during each iteration.
 
    6. In my next line of code I'm going to store result of my previous line code.
