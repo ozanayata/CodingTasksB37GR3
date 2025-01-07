@@ -3,7 +3,7 @@ package Ozan_task;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class RemoveDuplicatesTaskSol {
+public class T6_RemoveDuplicatesTaskSol {
 
 
     public static void main(String[] args) {
@@ -12,9 +12,9 @@ public class RemoveDuplicatesTaskSol {
 
     }
 
-    public static void removeDuplicates(String duplicate) {
+    public static void removeDuplicates(String duplicated) {
 
-        HashSet<String> set = new HashSet<>(Arrays.asList(duplicate.split("")));
+        HashSet<String> set = new HashSet<>(Arrays.asList(duplicated.split("")));
         for (String s : set) {
             System.out.print(s);
         }
