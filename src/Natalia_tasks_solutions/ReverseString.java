@@ -1,5 +1,4 @@
-package Natalia_tasks_solutions.week08;
-import java.util.Scanner;
+package Natalia_tasks_solutions;
 /*
     Write a function that can reverse a String
         Ex: Reverse("ABCD"); ==> DCBA

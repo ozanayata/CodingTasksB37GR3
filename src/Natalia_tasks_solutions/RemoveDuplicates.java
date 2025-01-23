@@ -1,4 +1,4 @@
-package Natalia_tasks_solutions.week06;
+package Natalia_tasks_solutions;
 
 public class RemoveDuplicates {
     /*
