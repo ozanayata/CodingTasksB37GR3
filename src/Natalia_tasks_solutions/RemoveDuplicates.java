@@ -1,4 +1,4 @@
-package Natalia_tasks_solutions.week06;
+package Natalia_tasks_solutions;
 
 public class RemoveDuplicates {
     /*
@@ -14,7 +14,8 @@ public class RemoveDuplicates {
         // Iterate through each character in the string
         for (char c : str.toCharArray()) {
             // Add the character only if it is not already in the result
-            if (!result.contains(String.valueOf(c))) {
+            if (!result.contains("" + c) ) {
+
                 result += c; // Add the character to the result
             }
         }
@@ -26,7 +27,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
         // Input string with duplicate characters
-        String str = "AABBCCDDEFG";
+        String str = "AABBCCDDEFFFGGGGG";
 
         // Call the method to remove duplicates
 
