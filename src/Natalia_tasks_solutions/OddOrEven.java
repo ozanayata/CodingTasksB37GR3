@@ -1,4 +1,4 @@
-package Natalia_tasks_solutions.week01;
+package Natalia_tasks_solutions;
 
 public class OddOrEven {
     /*

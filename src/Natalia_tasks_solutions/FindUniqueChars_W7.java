@@ -1,4 +1,4 @@
-package Natalia_tasks_solutions.week07;
+package Natalia_tasks_solutions;
 /*
     Write a return method that can find the unique characters from the String
             Ex: unique("AAABBBCCCDEF") ==> "DEF";
