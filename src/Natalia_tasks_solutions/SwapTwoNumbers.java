@@ -1,4 +1,4 @@
-package Natalia_tasks_solutions.wek03;
+package Natalia_tasks_solutions;
 
 public class SwapTwoNumbers {
     public static void main(String[] args) {
