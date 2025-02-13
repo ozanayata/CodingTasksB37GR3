@@ -17,9 +17,9 @@ public class FindMinimumArray_W10 {
     public static int findMinimum(int[] array) {
         int min = array[0];
 
-        for (int num : array) {
-            if (num < min) {
-                min = num;
+        for (int each : array) {
+            if (each < min) {
+                min = each;
             }
         }
 
